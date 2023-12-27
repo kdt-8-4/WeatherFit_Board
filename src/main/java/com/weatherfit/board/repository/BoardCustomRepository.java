@@ -5,6 +5,4 @@ import java.util.List;
 
 public interface BoardCustomRepository {
     List<BoardEntity> findBoardEntitiesWithCategoriesAndHashtags(List<String> categories, List<String> hashtags);
-
-
 }

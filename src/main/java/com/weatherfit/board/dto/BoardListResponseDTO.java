@@ -23,6 +23,4 @@ public class BoardListResponseDTO {
     private List<LikeEntity> likelist;
     private LocalDateTime createDate;
     private LocalDateTime modifiedDate;
-
-
 }
